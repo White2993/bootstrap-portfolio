@@ -1,6 +1,7 @@
 html,
 body {
   background-image: url(assets/images/beige-tiles.png);
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .nav-link{
@@ -20,14 +21,10 @@ h3{
   height: 50px;
 }
 
-#about-pic {
-  padding-left: 20px;
-}
-
 #about {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 960px;
-  height: 540px;
+  height: 560px;
 }
 
 #about-head{
@@ -45,4 +42,82 @@ h3{
 .col-md-6{
   padding-top: 4px;
   padding-right: 60px;
+}
+
+#proj-1{
+  padding: 20px;
+  background-image: url('./assets/images/portfoliopic.PNG');
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  margin-top: 16px;
+  height: 120px;
+}
+
+#proj-2{
+  padding: 20px;
+  background-image:url('https://i.pinimg.com/564x/d8/df/4e/d8df4e2efb27866e3204ca194b5cd9ad.jpg');
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  margin-top: 16px;
+  height: 120px;
+}
+
+#proj-3{
+  padding: 20px;
+  background-image: url('http://www.wallpapers13.com/wp-content/uploads/2016/05/Virginia-Falls-a-small-mountain-river-bed-karpessto-tree-nature-in-high-resolution.jpg');
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  margin-top: 16px;
+  height: 120px;
+}
+
+#proj-4{
+  padding: 20px;
+  background-image: url('https://res.cloudinary.com/demo/image/upload/w_250,h_250,c_mpad/w_700/sample.jpg');
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  margin-top: 16px;
+  height: 120px;
+}
+
+#proj-5{
+  padding: 20px;
+  background-image: url('https://cdn.wallpapersafari.com/25/48/VHEyOR.jpg'); 
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  margin-left: 22px;
+  margin-top: 16px;
+  height: 120px;
+}
+.project-labels{
+  height: 23px;
+  background-color: #4aaaa5;
+  width: 408px;
+  margin-left: -20px;
+  margin-top: 80px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#proj-1,
+#proj-2,
+#proj-3,
+#proj-4,
+#proj-5:hover{
+  cursor: pointer;
+}
+
+/*@media (max-width: 990px) {
+  .nav {
+      float: right;
+  }
 }
