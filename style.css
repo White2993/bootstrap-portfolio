@@ -17,14 +17,8 @@ h3{
   margin-left: 18px;
 }
 
-#nav-bar{
-  height: 50px;
-}
-
 #about {
-  margin-top: 30px;
-  width: 960px;
-  height: 560px;
+  margin-top: 18px;
 }
 
 #about-head{
@@ -36,16 +30,15 @@ h3{
 }
 
 #about-body {
-  margin-top: 30px;
+  margin-top: 18px;
 }
 
-.col-md-6{
-  padding-top: 4px;
-  padding-right: 60px;
+button{
+  margin-bottom: 10px;
 }
 
 #proj-1{
-  padding: 20px;
+  padding: 20px 0;
   background-image: url('./assets/images/portfoliopic.PNG');
   background-size: cover;
   margin-right: 20px;
@@ -56,7 +49,7 @@ h3{
 }
 
 #proj-2{
-  padding: 20px;
+  padding: 20px 0;
   background-image:url('https://i.pinimg.com/564x/d8/df/4e/d8df4e2efb27866e3204ca194b5cd9ad.jpg');
   background-size: cover;
   margin-right: 20px;
@@ -67,7 +60,7 @@ h3{
 }
 
 #proj-3{
-  padding: 20px;
+  padding: 20px 0;
   background-image: url('http://www.wallpapers13.com/wp-content/uploads/2016/05/Virginia-Falls-a-small-mountain-river-bed-karpessto-tree-nature-in-high-resolution.jpg');
   background-size: cover;
   margin-right: 20px;
@@ -78,7 +71,7 @@ h3{
 }
 
 #proj-4{
-  padding: 20px;
+  padding: 20px 0;
   background-image: url('https://res.cloudinary.com/demo/image/upload/w_250,h_250,c_mpad/w_700/sample.jpg');
   background-size: cover;
   margin-right: 20px;
@@ -89,7 +82,7 @@ h3{
 }
 
 #proj-5{
-  padding: 20px;
+  padding: 20px 0;
   background-image: url('https://cdn.wallpapersafari.com/25/48/VHEyOR.jpg'); 
   background-size: cover;
   margin-right: 20px;
@@ -101,11 +94,22 @@ h3{
 .project-labels{
   height: 23px;
   background-color: #4aaaa5;
-  width: 408px;
-  margin-left: -20px;
+  width: 100%;
   margin-top: 80px;
   text-align: center;
   color: whitesmoke;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 20px;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 2px;
+  background-color: #666666;
+  border-top: 3px solid #4aaaa5;
+  width: 100%;
 }
 
 #proj-1,
@@ -114,10 +118,4 @@ h3{
 #proj-4,
 #proj-5:hover{
   cursor: pointer;
-}
-
-/*@media (max-width: 990px) {
-  .nav {
-      float: right;
-  }
 }
