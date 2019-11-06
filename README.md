@@ -8,3 +8,4 @@ Bootstrap in general makes resizing quite a bit easier. Super.
 Really the only challenges faced were making the navbar at least look passable when sizing for different screens, as well as keeping text from spilling out of the body box. (Again showing me why in a lot of cases sizing with a px value is a no-no.)
 
 Est. time to completion: 6-ish hours?
+I'll try to keep better track next time. Seems like useful practice.
