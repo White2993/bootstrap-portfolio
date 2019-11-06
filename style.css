@@ -6,6 +6,12 @@ body {
 
 .nav-link{
   color: #777777;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  padding-top: 20px;
+}
+
+h2{
+  color: #4aaaa5;
 }
 
 h3{
@@ -14,7 +20,11 @@ h3{
   width: 200px;
   background-color: #4aaaa5;
   padding-top: 8px;
-  margin-left: 18px;
+  margin-top: 6px;
+}
+
+.about-text{
+  color:#777777;
 }
 
 #about {
@@ -91,6 +101,7 @@ button{
   margin-top: 16px;
   height: 120px;
 }
+
 .project-labels{
   height: 23px;
   background-color: #4aaaa5;
@@ -98,6 +109,7 @@ button{
   margin-top: 80px;
   text-align: center;
   color: whitesmoke;
+  overflow: hidden;
 }
 
 footer{
