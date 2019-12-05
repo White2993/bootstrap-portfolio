@@ -145,9 +145,15 @@ button{
 
 
 @media only screen and (max-width: 600px) {
+  #about {
+    width: 90% !important
+  }
+  
   .about-text{
-    margin-top: 20px;
-    margin-left: 60px;
+    text-align: center;
+  }
+
+  .about-head-text{
     text-align: center;
   }
 }
