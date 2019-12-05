@@ -29,11 +29,11 @@ h3{
 #text-1,
 #text-2,
 #text-3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #about-pic {
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 #my-name {
@@ -135,22 +135,19 @@ button{
   overflow: hidden;
 }
 
-footer{
-  position: fixed;
-  bottom: 0;
-  height: 20px;
-  text-align: center;
-  font-size: 10px;
-  padding-top: 2px;
-  background-color: #666666;
-  border-top: 3px solid #4aaaa5;
-  width: 100%;
-}
-
 #proj-1,
 #proj-2,
 #proj-3,
 #proj-4,
 #proj-5:hover{
   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about-text{
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+  }
 }
