@@ -26,12 +26,23 @@ h3{
   margin-top: 10px;
 }
 
+#text-1,
+#text-2,
+#text-3 {
+  font-size: 18px;
+}
+
+#about-pic {
+  margin-left: 10px;
+}
+
 #my-name {
   text-align: left;
 }
 
 .about-text{
   color:#777777;
+  
 }
 
 #about {
